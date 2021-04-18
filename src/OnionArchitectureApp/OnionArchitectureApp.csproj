@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArchitectureApp.AppServices\OnionArchitectureApp.AppServices.csproj" />
+    <ProjectReference Include="..\OnionArchitectureApp.DomainModel\OnionArchitectureApp.DomainModel.csproj" />
+    <ProjectReference Include="..\OnionArchitectureApp.DomainServices\OnionArchitectureApp.DomainServices.csproj" />
+    <ProjectReference Include="..\OnionArchitectureApp.Infrastructure\OnionArchitectureApp.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
