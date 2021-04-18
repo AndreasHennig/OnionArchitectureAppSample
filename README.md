@@ -1,3 +1,6 @@
+Onion Architecture Sample App
+=============================
+
 This is an example on how to create a Xamarin.Forms mobile app while maintaining a clean architecture using the onion architecture model.
 
 This sample is quite dogmatic in the sense that it keeps every layer of the application core in a separate Visual Studio project (hence in a separate assembly).
