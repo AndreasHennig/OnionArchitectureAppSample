@@ -9,4 +9,7 @@
     <ProjectReference Include="..\OnionArchitectureApp.AppServices\OnionArchitectureApp.AppServices.csproj" />
     <ProjectReference Include="..\OnionArchitectureApp.DomainServices\OnionArchitectureApp.DomainServices.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
 </Project>
