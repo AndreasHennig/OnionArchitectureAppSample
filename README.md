@@ -1,7 +1,7 @@
 Onion Architecture Sample App
 =============================
 
-This is an example on how to create a Xamarin.Forms mobile app while maintaining a clean architecture using the onion architecture model.
+This is an example on how to create a Xamarin.Forms mobile app which a clean architecture using the onion architecture model.
 
 # Projects
 ## Outer Layer
